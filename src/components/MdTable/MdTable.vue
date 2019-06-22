@@ -195,7 +195,7 @@
           const height = typeof this.mdHeight === 'number'
             ? `${this.mdHeight}px`
             : this.mdHeight
-          return `height: ${height};max-height: ${height}`
+          return `height: ${height}`
         }
       },
       contentClasses () {
